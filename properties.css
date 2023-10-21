@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter&family=Mada&family=Montserrat&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+nav{
+  position:sticky;
+  top: 0px;
+  z-index: 1;
+  width: 100vw;
+  background-color: white;
+}
+.destination-details{
+   width: 40vw;
+   height: 50px;
+   box-shadow: 5px 5px 5px rgb(172, 166, 166);
+   border-radius: 20px;
+
+}
+  .destination-details>div>button{
+    text-align: center;
+    padding: 5px 7px;
+    background-color:rgb(222,49,81);
+    border-radius: 55%;
+    margin: 4px;
+    border: none;
+  }
+  .destination-details>p{
+    margin: auto auto;
+  }
+  .line{
+    height: 85%;
+    width: 1.5px;
+    background-color: rgb(227, 218, 218);
+  }
+  .user{
+    background-color: white;
+    border-radius: 10px;
+}
+  .user-profile>div{
+    padding-inline: 5px;
+    cursor: pointer;
+}
+.options>div{
+  line-height: 200%;
+  border: 1px solid rgb(226, 213, 213);
+  padding-inline: 15px;
+  border-radius: 15px;
+}
+.all-properties{
+  width: 60vw;
+  /* background-color: aqua; */
+}
+.map{
+  width: 40vw;
+  background-color: red;
+}
+.amenties{
+    width: 60%;
+    font-size: 14px;
+   
+}
+.property-img{
+ 
+  height: 100%;
+  width: 85%;
+}
+.property-img>img{
+  height: 100%;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.property-card{
+  border-bottom: 1px solid rgb(202, 212, 202);
+}
+.heart{
+  cursor: pointer;
+}
+
+
+
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 30px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin-inline: 20px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
