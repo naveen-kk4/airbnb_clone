@@ -33,11 +33,17 @@ function valid(){
     const val2 = checkIn.value;
     const val3 = checkOut.value;
     const val4 = guests.value;
+    
+   
     if(val1=="" || val2=="" || val3=="" || val4==""){
         alert("kindly fill all details!");
         return false;
     }
-    if(val2>=val3){
+    const checkInDate = new Date(val2);
+    const checkOutDate = new Date(val3);
+    const today = new Date();
+
+    if(checkInDate>=checkOutDate || checkInDate<today){
         alert("kindly fill dates properly!");
         return false; 
     }
