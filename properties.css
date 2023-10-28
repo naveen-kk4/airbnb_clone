@@ -265,7 +265,7 @@ box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 
   transition: all linear 1s;
 }
 .button-11:hover{
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,44,29,1) 0%, rgba(252,84,69,0.8599089293920693) 77%);
+  background: radial-gradient(circle, rgba(238,174,202,1) 56%, rgba(148,187,233,1) 100%);
 }
 ::-webkit-scrollbar {
   width: 10px;
